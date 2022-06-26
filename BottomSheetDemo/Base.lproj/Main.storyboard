@@ -17,10 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xg-G8-FrM">
-                                <rect key="frame" x="134.5" y="430" width="145" height="36"/>
+                                <rect key="frame" x="123" y="430" width="168" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="open second VC"/>
+                                <state key="normal" title="show bottom sheet"/>
+                                <connections>
+                                    <action selector="showButtomPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="iIc-5n-2CC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

@@ -14,6 +14,10 @@ class RootViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func showButtomPressed() {
+        let viewController = BottomSheetViewController()
+        present(viewController, animated: true)
+    }
+    
 }
 
